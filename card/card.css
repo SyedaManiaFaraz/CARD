@@ -1,0 +1,43 @@
+.header{
+    color:beige;
+}
+
+.header>ul{
+    width: 40%;
+    background-color: rgb(16, 101, 134);
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px 7px grey;
+    margin: auto;
+}
+
+.header>ul>li{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.header>ul>li:hover{
+    color: blue;
+}
+
+.card{
+    margin-top: 40px;
+    background-color: aqua;
+    color: black;
+    height: 130px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px 7px grey;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
